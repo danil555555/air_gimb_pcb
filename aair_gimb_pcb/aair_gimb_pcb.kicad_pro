@@ -644,6 +644,10 @@
     [
       "526064b6-8a4a-401a-a09d-5ba18d5a28f8",
       "drv8302"
+    ],
+    [
+      "21bc98e0-566c-4ee0-a2e4-dec280c17108",
+      "mosfet"
     ]
   ],
   "text_variables": {}

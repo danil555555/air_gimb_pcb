@@ -7,7 +7,37 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 144.78 87.63)
+			(xy 193.04 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b432e3-d5b0-433d-b44e-a5c8ba1888c9")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b856c1e-679f-43a2-b96a-d24024c4abce")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660e0451-d669-447c-9e19-450d411a0c0a")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 144.78 99.06)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +47,47 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 144.78 85.09)
+			(xy 193.04 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7924b9bf-8c6e-442d-9778-75af0b580e02")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee2f413-a212-48b9-9b60-b79a62516a85")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 213.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc54f86-d2b5-4a84-bd42-b4d4b8c1fbf0")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cd7efa-67be-4be5-8ecd-25dac0f2e119")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +97,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 144.78 82.55)
+			(xy 193.04 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc7d8d9-bb4f-4c26-8605-1158f4106694")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac529d11-5362-46a3-94e0-9deca6a6c487")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -35,9 +125,231 @@
 		)
 		(uuid "c0d937ae-c6f0-4eb5-86bd-b18a0ff7a5c1")
 	)
+	(wire
+		(pts
+			(xy 193.04 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dd60bf-4bc9-427f-bad9-91041bc77fce")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c623ea84-6a8d-492f-b903-7e1b97449d31")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb498c0-f09d-44b6-af6e-2f857e233e6e")
+	)
+	(sheet
+		(at 213.36 76.2)
+		(size 45.72 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21bc98e0-566c-4ee0-a2e4-dec280c17108")
+		(property "Sheetname" "mosfet"
+			(at 213.36 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 213.36 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PHASE_1" input
+			(at 259.08 85.09 0)
+			(uuid "f91b5339-0208-4489-976e-31b0e9c15534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHASE_2" input
+			(at 259.08 87.63 0)
+			(uuid "1957fbc0-e440-47db-98be-09e6e4e18af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHASE_3" input
+			(at 259.08 90.17 0)
+			(uuid "a13dbecc-4c3d-4cf8-8e2f-5825b1c9fa0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_H1" input
+			(at 213.36 78.74 180)
+			(uuid "e3eb48c6-162e-441d-95db-9080d73f8ca4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_L1" input
+			(at 213.36 81.28 180)
+			(uuid "30caca92-3be3-4187-b308-8ba676adb47c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_H2" input
+			(at 213.36 83.82 180)
+			(uuid "e9f64c65-6dcd-4179-a7ba-f764efd8da55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_L2" input
+			(at 213.36 86.36 180)
+			(uuid "e8d93224-724f-4809-acbd-4bf4deefce63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_H3" input
+			(at 213.36 88.9 180)
+			(uuid "a6f222cb-cca6-4cc3-9acf-d11adc81b6b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_L3" input
+			(at 213.36 91.44 180)
+			(uuid "d36e861e-d63a-4f01-a215-5ff2a2743b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H1_VS" output
+			(at 213.36 96.52 180)
+			(uuid "e521e6ae-bc8d-4b43-b8d6-5b2f5a329b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H2_VS" output
+			(at 213.36 99.06 180)
+			(uuid "86a2251d-2d55-4730-b4c2-6e8f86e2a01c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H3_VS" output
+			(at 213.36 101.6 180)
+			(uuid "bfee3586-fd26-4f3a-b2a4-055fe9816ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H1_LOW" input
+			(at 213.36 107.95 180)
+			(uuid "fa5255ca-db34-4c09-8590-8f5b91eaa30f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H2_LOW" input
+			(at 213.36 110.49 180)
+			(uuid "2269dacf-efd5-410f-b5bd-829ebd692ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H3_LOW" input
+			(at 213.36 113.03 180)
+			(uuid "3127a4ea-4f44-489c-958e-e5ae66eb8f69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "aair_gimb_pcb"
+				(path "/d04c5395-2e3c-40b8-8677-11fb81ced555"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 144.78 76.2)
-		(size 48.26 38.1)
+		(size 48.26 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -61,7 +373,7 @@
 			)
 		)
 		(property "Sheetfile" "drv8302.kicad_sch"
-			(at 144.78 114.8846 0)
+			(at 144.78 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +382,7 @@
 			)
 		)
 		(pin "L3" input
-			(at 144.78 87.63 180)
+			(at 144.78 99.06 180)
 			(uuid "984d52c8-09dd-4f7d-86bd-bf006e907473")
 			(effects
 				(font
@@ -80,7 +392,7 @@
 			)
 		)
 		(pin "L2" input
-			(at 144.78 85.09 180)
+			(at 144.78 96.52 180)
 			(uuid "555f7554-2fbf-4d9d-b54d-41278bd7e686")
 			(effects
 				(font
@@ -90,13 +402,273 @@
 			)
 		)
 		(pin "L1" input
-			(at 144.78 82.55 180)
+			(at 144.78 93.98 180)
 			(uuid "0d590425-a8c0-41d3-ade6-e3d448fe9b2f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "H1" input
+			(at 144.78 86.36 180)
+			(uuid "df2d4b45-e233-40cb-a6bb-1e0f68e0386b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H2" input
+			(at 144.78 88.9 180)
+			(uuid "86d965de-a623-47f0-91e8-afcaa4266b1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H3" input
+			(at 144.78 91.44 180)
+			(uuid "83c3cde4-fd1c-4f58-94a9-37c6026f9e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_GATE" input
+			(at 144.78 101.6 180)
+			(uuid "c88adfaf-1252-4b60-b3c4-233c7aefa05f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT" output
+			(at 144.78 78.74 180)
+			(uuid "01ca6d5d-45e5-42e3-96c2-b7c7da24b8a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_PWM" input
+			(at 144.78 81.28 180)
+			(uuid "a5a40016-b945-43e0-8aaf-ed21360bbac0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Current_ADC_1" input
+			(at 144.78 109.22 180)
+			(uuid "3ccd8926-4e45-45da-9117-4310a4e75a13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Current_ADC_2" input
+			(at 144.78 111.76 180)
+			(uuid "6cf310d0-c552-4740-a996-83ab82042255")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_CAL" input
+			(at 144.78 105.41 180)
+			(uuid "3ca5bf85-4066-4116-a479-1c640a391487")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M_H2" output
+			(at 193.04 83.82 0)
+			(uuid "c493ae64-a0df-4cde-887a-c688bfe57d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_L2" output
+			(at 193.04 86.36 0)
+			(uuid "cb27ed16-9b81-4c83-aad7-459994fbf673")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_L3" output
+			(at 193.04 91.44 0)
+			(uuid "70c76d23-f44b-4846-af13-f08083a713a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_H3" output
+			(at 193.04 88.9 0)
+			(uuid "cfb5d24d-6b8c-42a3-8c41-b8dc64c249f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_L1" output
+			(at 193.04 81.28 0)
+			(uuid "861dcf7f-e2eb-482d-8a41-f36689caa0af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M_H1" output
+			(at 193.04 78.74 0)
+			(uuid "de4435b8-78a3-47f4-8a08-3d500df0c5d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GAIN" input
+			(at 144.78 83.82 180)
+			(uuid "29a758bc-b923-4ba9-9cb8-96b3b7a3da31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H1_VS" input
+			(at 193.04 96.52 0)
+			(uuid "fa36fc4e-9eab-419c-8b36-2d11d7754b93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H3_VS" input
+			(at 193.04 101.6 0)
+			(uuid "6f6970ec-4686-462b-88d4-d755ad67276c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H2_VS" input
+			(at 193.04 99.06 0)
+			(uuid "8da148e9-951b-400f-91c9-6f4b6ba14a98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SH1_A" input
+			(at 193.04 119.38 0)
+			(uuid "0c88507b-9720-4a1b-a44c-b88403012197")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SH1_B" input
+			(at 193.04 121.92 0)
+			(uuid "cd7dd56b-65f0-44a8-927b-ffb87670cea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SH2_A" input
+			(at 193.04 124.46 0)
+			(uuid "76163f70-69de-467d-b491-6503304263ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SH2_B" input
+			(at 193.04 127 0)
+			(uuid "d0d672d6-e20f-4d46-a30f-c4fd3c6c0186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H2_LOW" input
+			(at 193.04 110.49 0)
+			(uuid "f6f11842-0555-4850-a763-e0145534adc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H1_LOW" input
+			(at 193.04 107.95 0)
+			(uuid "808c3bb9-dee4-4b8a-b99c-e28cc289e0ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H3_LOW" input
+			(at 193.04 113.03 0)
+			(uuid "46832274-9b9a-4532-8675-a5e25971bb6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -142,7 +714,7 @@
 			)
 		)
 		(pin "L3" output
-			(at 124.46 87.63 0)
+			(at 124.46 99.06 0)
 			(uuid "0532a593-83f6-4a7b-a261-488b219f78a7")
 			(effects
 				(font
@@ -152,7 +724,7 @@
 			)
 		)
 		(pin "L2" output
-			(at 124.46 85.09 0)
+			(at 124.46 96.52 0)
 			(uuid "e8a85357-3991-48af-9660-6c1a2a0a60f6")
 			(effects
 				(font
@@ -162,8 +734,38 @@
 			)
 		)
 		(pin "L1" output
-			(at 124.46 82.55 0)
+			(at 124.46 93.98 0)
 			(uuid "80ae1df8-19ff-4f2f-92aa-57cf42b43a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H3" output
+			(at 124.46 91.44 0)
+			(uuid "5a8955c0-21ea-4dcf-8f15-cfe2e7612f86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H2" output
+			(at 124.46 88.9 0)
+			(uuid "8dd2406a-b0a3-4ffa-836f-f6d8a85777a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "H1" output
+			(at 124.46 86.36 0)
+			(uuid "2bd57889-4330-46d2-a808-c6c649421ae9")
 			(effects
 				(font
 					(size 1.27 1.27)
