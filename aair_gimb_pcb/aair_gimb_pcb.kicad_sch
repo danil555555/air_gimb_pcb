@@ -5,8 +5,110 @@
 	(uuid "d04c5395-2e3c-40b8-8677-11fb81ced555")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b59e5b-1f88-4e41-9bb9-066a48bcff72")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e12654-06fc-49d9-90f2-e6d4f353eb68")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 144.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d937ae-c6f0-4eb5-86bd-b18a0ff7a5c1")
+	)
 	(sheet
-		(at 124.46 87.63)
+		(at 144.78 76.2)
+		(size 48.26 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "526064b6-8a4a-401a-a09d-5ba18d5a28f8")
+		(property "Sheetname" "drv8302"
+			(at 144.78 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drv8302.kicad_sch"
+			(at 144.78 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L3" input
+			(at 144.78 87.63 180)
+			(uuid "984d52c8-09dd-4f7d-86bd-bf006e907473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L2" input
+			(at 144.78 85.09 180)
+			(uuid "555f7554-2fbf-4d9d-b54d-41278bd7e686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L1" input
+			(at 144.78 82.55 180)
+			(uuid "0d590425-a8c0-41d3-ade6-e3d448fe9b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "aair_gimb_pcb"
+				(path "/d04c5395-2e3c-40b8-8677-11fb81ced555"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 77.47)
 		(size 35.56 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +124,7 @@
 		)
 		(uuid "7fbb9adf-0048-4876-8c48-9f0d8db4e360")
 		(property "Sheetname" "Stm32f405"
-			(at 124.46 86.9184 0)
+			(at 88.9 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +133,42 @@
 			)
 		)
 		(property "Sheetfile" "Stm32f405.kicad_sch"
-			(at 124.46 126.3146 0)
+			(at 88.9 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "L3" output
+			(at 124.46 87.63 0)
+			(uuid "0532a593-83f6-4a7b-a261-488b219f78a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L2" output
+			(at 124.46 85.09 0)
+			(uuid "e8a85357-3991-48af-9660-6c1a2a0a60f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L1" output
+			(at 124.46 82.55 0)
+			(uuid "80ae1df8-19ff-4f2f-92aa-57cf42b43a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

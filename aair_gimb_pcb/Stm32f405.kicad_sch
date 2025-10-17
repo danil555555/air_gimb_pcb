@@ -4024,6 +4024,10 @@
 		(uuid "32258b58-21c1-451e-a97d-335da6e679a4")
 	)
 	(no_connect
+		(at 243.84 107.95)
+		(uuid "568dd759-6849-4b7a-bc6c-864a09878ba9")
+	)
+	(no_connect
 		(at 193.04 138.43)
 		(uuid "6b674cd2-afd4-4efd-8468-9ad7ce47631b")
 	)
@@ -4711,26 +4715,6 @@
 			)
 		)
 	)
-	(global_label "SWO"
-		(shape input)
-		(at 165.1 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2116ab2e-5fea-4495-8fac-03a72a8bc8ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 165.1 95.25 0)
@@ -4953,26 +4937,6 @@
 			)
 		)
 	)
-	(global_label "SWO"
-		(shape input)
-		(at 243.84 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca9f3135-8c2d-4283-b043-472e5556f0ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_STATUS"
 		(shape input)
 		(at 124.46 90.17 180)
@@ -5054,6 +5018,72 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "L2"
+		(shape output)
+		(at 165.1 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41263496-90aa-4489-9625-08585e2211ec")
+	)
+	(hierarchical_label "H3"
+		(shape output)
+		(at 165.1 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "420ab9ba-b079-4503-ba96-db5ad160b26b")
+	)
+	(hierarchical_label "H2"
+		(shape output)
+		(at 165.1 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "674ef603-4466-4c71-81d0-aa4fcbdc0999")
+	)
+	(hierarchical_label "L1"
+		(shape output)
+		(at 165.1 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9ea238e-b94f-4afd-b74c-c1717b0a270d")
+	)
+	(hierarchical_label "H1"
+		(shape output)
+		(at 165.1 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d26298b1-05ae-4d42-9ba2-e0bd1bc1dce4")
+	)
+	(hierarchical_label "L3"
+		(shape output)
+		(at 165.1 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe96aff8-d118-48f0-a691-c32b11509892")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5472,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_r"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5539,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_r"
 			(at 153.67 43.18 0)
 			(effects
 				(font
@@ -5865,6 +5895,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 140.97 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f028c37-d06c-4508-ba79-351c9af687b4")
+		(property "Reference" "#PWR04"
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a856194-a7db-44d0-8e68-771dd42fa3b9")
+		)
+		(instances
+			(project ""
+				(path "/d04c5395-2e3c-40b8-8677-11fb81ced555/7fbb9adf-0048-4876-8c48-9f0d8db4e360"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 185.42 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5954,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_r"
 			(at 158.75 43.18 0)
 			(effects
 				(font
@@ -6716,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_c"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -6981,7 +7077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_r"
 			(at 168.91 43.18 0)
 			(effects
 				(font
@@ -7263,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRF1:SMD-0603_r"
 			(at 163.83 43.18 0)
 			(effects
 				(font
