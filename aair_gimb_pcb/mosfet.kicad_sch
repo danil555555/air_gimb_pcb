@@ -1150,7 +1150,7 @@
 		(uuid "67d81401-dfe9-44b1-90c0-9799037a0c52")
 	)
 	(hierarchical_label "H3_LOW"
-		(shape input)
+		(shape output)
 		(at 180.34 119.38 270)
 		(effects
 			(font
@@ -1205,7 +1205,7 @@
 		(uuid "bc9f53a9-c6de-4e28-b204-d5d488c06cea")
 	)
 	(hierarchical_label "H2_LOW"
-		(shape input)
+		(shape output)
 		(at 146.05 119.38 270)
 		(effects
 			(font
@@ -1249,7 +1249,7 @@
 		(uuid "e5a931d3-a74d-402b-a875-5ec6a4d30162")
 	)
 	(hierarchical_label "H1_LOW"
-		(shape input)
+		(shape output)
 		(at 110.49 119.38 270)
 		(effects
 			(font
