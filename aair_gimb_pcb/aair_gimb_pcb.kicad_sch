@@ -1313,10 +1313,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d59d6c8-f57a-49ca-89f6-72c831ffbf69")
 		(property "Reference" "P1"
-			(at 220.218 33.02 90)
+			(at 220.472 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,6 +1328,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRF1:1PAD_4x5mm"
@@ -1378,10 +1378,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5338dd38-e444-4750-bfa5-47e2dc3b9b1f")
 		(property "Reference" "P2"
-			(at 220.218 43.18 90)
+			(at 220.472 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,6 +1393,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRF1:1PAD_4x5mm"
