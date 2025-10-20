@@ -5,6 +5,169 @@
 	(uuid "d04c5395-2e3c-40b8-8677-11fb81ced555")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -604,6 +767,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 43.18) (xy 226.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d61fdd9-4357-4692-bbf8-149b305a1877")
+	)
+	(wire
+		(pts
 			(xy 171.45 90.17) (xy 191.77 90.17)
 		)
 		(stroke
@@ -794,16 +967,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 226.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a453d2ea-a3f9-441c-830f-3b3845d8f8b6")
-	)
-	(wire
-		(pts
 			(xy 182.88 124.46) (xy 182.88 125.73)
 		)
 		(stroke
@@ -811,6 +974,16 @@
 			(type default)
 		)
 		(uuid "a47f5596-8b60-4d34-b0ca-5fa8b938695e")
+	)
+	(wire
+		(pts
+			(xy 217.17 40.64) (xy 228.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a760b807-9d30-4031-bb6c-994da5aa47a2")
 	)
 	(wire
 		(pts
@@ -841,6 +1014,16 @@
 			(type default)
 		)
 		(uuid "b4995d48-8edb-43fc-be77-a883537531fc")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b4a67-b512-4aa9-8f45-3efdfaa68a89")
 	)
 	(wire
 		(pts
@@ -911,16 +1094,6 @@
 			(type default)
 		)
 		(uuid "d749e85d-1db1-4208-880a-306b3006130a")
-	)
-	(wire
-		(pts
-			(xy 223.52 48.26) (xy 226.06 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75cdf63-10f7-4784-801c-a340474acf6e")
 	)
 	(wire
 		(pts
@@ -1014,7 +1187,7 @@
 	)
 	(global_label "V_SUPPLY"
 		(shape input)
-		(at 226.06 38.1 0)
+		(at 228.6 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1024,7 +1197,7 @@
 		)
 		(uuid "ec4b0526-af8f-4fee-aa30-0accc641eca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.2981 38.1 0)
+			(at 240.8381 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,24 +1479,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 38.1 90)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 212.09 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d59d6c8-f57a-49ca-89f6-72c831ffbf69")
-		(property "Reference" "P1"
-			(at 220.472 35.814 90)
+		(uuid "5e7b2094-9470-437a-8966-762d6d3b563a")
+		(property "Reference" "xt30"
+			(at 215.138 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "IN+"
-			(at 220.218 35.56 90)
+		(property "Value" "XT30"
+			(at 212.725 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,8 +1504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRF1:1PAD_4x5mm"
-			(at 223.52 33.02 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 33.02 0)
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,8 +1522,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 223.52 38.1 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 212.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,77 +1532,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "75d64dac-fa05-420b-8ebb-9d2ecfcf1cdf")
+			(uuid "ea6b39b6-1b77-4e0b-9ab5-418c8c564d72")
+		)
+		(pin "2"
+			(uuid "a588a37f-bcd6-481a-8091-51fcff78ccbe")
 		)
 		(instances
 			(project ""
 				(path "/d04c5395-2e3c-40b8-8677-11fb81ced555"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5338dd38-e444-4750-bfa5-47e2dc3b9b1f")
-		(property "Reference" "P2"
-			(at 220.472 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN-"
-			(at 220.218 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CRF1:1PAD_4x5mm"
-			(at 223.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd6652f7-c01b-411a-b137-8ec1bc3cf172")
-		)
-		(instances
-			(project "aair_gimb_pcb"
-				(path "/d04c5395-2e3c-40b8-8677-11fb81ced555"
-					(reference "P2")
+					(reference "xt30")
 					(unit 1)
 				)
 			)
