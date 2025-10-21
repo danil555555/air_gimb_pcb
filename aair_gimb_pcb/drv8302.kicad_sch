@@ -7302,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRF1:TSSOP-56-PP"
+		(property "Footprint" "Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm"
 			(at 130.81 99.06 0)
 			(effects
 				(font
