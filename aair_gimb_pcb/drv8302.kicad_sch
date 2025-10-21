@@ -8653,6 +8653,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 104.14 135.89 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8660,7 +8661,7 @@
 		(dnp no)
 		(uuid "985e2d6b-997a-4512-9dc2-e0e57e8522ec")
 		(property "Reference" "C2"
-			(at 102.362 138.43 90)
+			(at 105.918 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8669,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 102.362 132.334 90)
+			(at 105.918 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
