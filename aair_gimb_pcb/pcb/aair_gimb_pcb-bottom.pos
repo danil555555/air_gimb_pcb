@@ -1,0 +1,25 @@
+### Footprint positions - created on 2025-10-22T09:59:10+0300 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                      PosX       PosY       Rot  Side
+C13       2.2u      SMD-0603_c               150.1500   -70.7740  -90.0000  bottom
+C14       2.2u      SMD-0603_c               146.9500   -70.7120  -90.0000  bottom
+C15       2.2u      SMD-0603_c               151.7500   -70.8000  -90.0000  bottom
+C16       2.2u      SMD-0603_c               145.4500   -70.7120  -90.0000  bottom
+C22       100u      CP_EIA-3528-21_Kemet-B   165.2000   -67.3500    0.0000  bottom
+C27       10u,50v   C_1206_3216Metric        170.1500   -75.2000    0.0000  bottom
+C28       2.2u      SMD-0603_c               148.5000   -70.7620  -90.0000  bottom
+C29       2.2u      SMD-0603_r               156.5880   -67.5500  180.0000  bottom
+C30       100u      CP_EIA-3528-21_Kemet-B   155.7100   -70.8500  180.0000  bottom
+C31       10u,50v   C_1206_3216Metric        170.1000   -77.8500  180.0000  bottom
+C32       10u,50v   C_1206_3216Metric        170.1000   -80.3000  180.0000  bottom
+C33       15u,50v   C_1206_3216Metric        170.1000   -82.7500  180.0000  bottom
+C34       10u,50v   C_1206_3216Metric        171.6000   -85.1000  180.0000  bottom
+C35       10u,50v   C_1206_3216Metric        171.2500   -87.4500  180.0000  bottom
+C36       15u,50v   C_1206_3216Metric        174.0000   -78.6750   90.0000  bottom
+D1        TVS_5v    D_SMA                    162.7500   -71.1500    0.0000  bottom
+R27       R005      R_2512_6332Metric        184.3500   -71.9000  180.0000  bottom
+R28       R005      R_2512_6332Metric        183.7000   -85.2500  180.0000  bottom
+U3        TC2117    SOT-223                  156.2980   -76.2000   90.0000  bottom
+## End

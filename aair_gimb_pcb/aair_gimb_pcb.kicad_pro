@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "pcb/",
+      "pos_files": "pcb/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "aair_gimb_pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -582,6 +582,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
